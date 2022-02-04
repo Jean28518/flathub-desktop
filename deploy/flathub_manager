@@ -1,0 +1,13 @@
+#!/usr/bin/python3
+
+import os
+import subprocess
+
+def main():
+    basedir = os.path.abspath(os.path.dirname(__file__))
+    proc = subprocess.Popen(['python3', os.path.join(basedir, 'backend/app.py')], shell=False)
+    os.system(os.path.join(basedir, "frontend/flatpak_manager"))
+    proc.terminate()
+
+if __name__ == "__main__":
+    main()
