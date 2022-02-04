@@ -1,10 +1,12 @@
 # Flathub Desktop
 Unofficial Desktop Client for Flathub
 
+![Bildschirmfoto vom 2022-02-04 17-04-28](https://user-images.githubusercontent.com/39700889/152561868-b5cfff7f-4ffc-4283-871c-710421f3f9e5.png)
+
 # How to build and run:
 - You need flutter, gtk, curl, python3 and pip3 installed on linux
 - `pip3 install flask flask_cors`
-- `mkdir mkdir deploy/frontend`
+- `mkdir deploy/frontend`
 - `cd flutter`
 - `flutter build linux`
 - `cd ..`
