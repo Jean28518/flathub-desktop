@@ -5,6 +5,7 @@ Unofficial Desktop Client for Flathub
 
 # How to build and run:
 - You need flutter, gtk, curl, python3 and pip3 installed on linux
+    - Ubuntu based systems: `sudo apt install snapd python3 python3-pip curl && sudo snap install flutter`
 - `pip3 install flask flask_cors`
 - `mkdir deploy/frontend`
 - `cd flutter`
