@@ -2,10 +2,12 @@
 
 import os
 import subprocess
+import time
 
 def main():
     basedir = os.path.abspath(os.path.dirname(__file__))
     proc = subprocess.Popen(['python3', os.path.join(basedir, 'backend/app.py')], shell=False)
+    time.sleep(0.5)
     os.system("'" + os.path.join(basedir, "frontend/flatpak_manager" +"'"))
     proc.terminate()
 
